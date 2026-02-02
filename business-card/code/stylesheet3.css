@@ -1,0 +1,65 @@
+.card {
+    
+    
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+
+    width: 500px;
+    margin: 70px auto;
+    text-align: center;
+    color: #2b2839;
+    background: #ddebf8;
+    border-bottom: 5px solid #cfbdf8;
+    border-radius: 20px;
+    box-shadow:5px 10px 60px 10px #8973d6;
+
+
+
+   
+
+    
+  }
+
+  @keyframes myAnimation {
+  0%   {background-color: rgb(255, 161, 161);}
+  25%  {background-color: rgb(247, 247, 141);}
+  50%  {background-color: rgb(145, 145, 255);}
+  100% {background-color: rgb(117, 255, 117);}
+}
+
+.business-card {
+    width: 150px;
+   }
+h3 {
+  
+  animation-name: myAnimation;
+  animation-duration: 4s;
+  padding: 3px;
+  border-radius: 10px;
+}
+
+
+
+
+h3:hover {
+    color: #BC002D;
+    font-size: 19px;
+    text-shadow:2px 2px 5px #ffffff;
+
+   
+}
+
+p , h4 :hover{
+    text-shadow:2px 2px 5px #4c53b3;
+    
+}
+img {
+    
+    border-radius: 3px;
+    box-shadow: #d8cefe;
+
+}
+
+
+
